@@ -48,7 +48,7 @@ public class BasketballGame {
 			for (int i = 1; i < list.size(); i += 2) {
 				team2.add(list.get(i));
 			}
-
+			
 			String team1Names = playersRemaining(team1, gameTime,
 					playersAtOneTime);
 			String team2Names = playersRemaining(team2, gameTime,
